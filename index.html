@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人主页</title>
+    <title>我的Minecraft风格个人主页</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Minecraftia', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #87CEEB;
             color: #333;
         }
 
         header {
-            background-color: #333;
+            background-color: #3C3C3C;
             color: #fff;
             padding: 1rem 0;
             text-align: center;
@@ -22,6 +22,7 @@
 
         header h1 {
             margin: 0;
+            font-size: 2.5rem;
         }
 
         nav ul {
@@ -37,6 +38,7 @@
         nav ul li a {
             color: #fff;
             text-decoration: none;
+            font-size: 1.2rem;
         }
 
         section {
@@ -50,31 +52,36 @@
         footer {
             text-align: center;
             padding: 1rem 0;
-            background-color: #333;
+            background-color: #3C3C3C;
             color: #fff;
             position: fixed;
             width: 100%;
             bottom: 0;
         }
+
+        .minecraft-font {
+            font-family: 'Minecraftia', sans-serif;
+        }
     </style>
+    <link href="https://fonts.cdnfonts.com/css/minecraftia" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>欢迎来到我的个人主页</h1>
+        <h1 class="minecraft-font">欢迎来到我的Minecraft风格个人主页</h1>
         <nav>
             <ul>
-                <li><a href="./about">关于我</a></li>
-                <li><a href="./projects">项目</a></li>
-                <li><a href="./contact">联系我</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#contact">联系我</a></li>
             </ul>
         </nav>
     </header>
     <section id="about">
-        <h2>关于我</h2>
-        <p>你好，我是高晨曦，一个热爱编程和技术的开发者。</p>
+        <h2 class="minecraft-font">关于我</h2>
+        <p>你好，我是高晨曦，一个热爱编程和Minecraft的开发者。</p>
     </section>
     <section id="projects">
-        <h2>项目</h2>
+        <h2 class="minecraft-font">项目</h2>
         <ul>
             <li>项目1</li>
             <li>项目2</li>
@@ -82,7 +89,7 @@
         </ul>
     </section>
     <section id="contact">
-        <h2>联系我</h2>
+        <h2 class="minecraft-font">联系我</h2>
         <p>你可以通过以下方式联系我：</p>
         <ul>
             <li>Email: oryun1001@gmail.com</li>
